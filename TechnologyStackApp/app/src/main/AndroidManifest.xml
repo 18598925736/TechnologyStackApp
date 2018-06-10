@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.administrator.technologystackapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activities.activity.ListActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.activity.function.ActivityCustomView" />
+        <activity android:name=".activities.activity.function.ActivityScrollConflict" />
+        <activity android:name=".activities.activity.function.ActivityScrollListView" />
+        <activity android:name=".activities.activity.function.ActivityAnimatorMenu" />
+        <activity android:name=".activities.activity.function.ActivityCustomDanMuLayout" />
+        <activity android:name=".activities.activity.function.ActivityCustomSurfaceView" />
+        <activity android:name=".activities.activity.function.ActivityDerivedView" />
+        <activity android:name=".activities.activity.function.ActivityRoundedImage" />
+        <activity android:name=".activities.activity.function.ActivityCustomLayout" />
+        <activity android:name=".activities.activity.function.ActivityMovingTextView" />
+        <activity android:name=".activities.activity.function.ActivityHorizontalMenu" />
+        <activity android:name=".activities.activity.function.ActivityRecyclerView" />
+        <activity android:name=".activities.activity.function.ActivitySlideTab" />
+        <activity android:name=".activities.activity.function.ActivitySwipe2delete"></activity>
+    </application>
+
+</manifest>

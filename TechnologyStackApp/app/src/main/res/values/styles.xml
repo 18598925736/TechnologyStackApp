@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AnalystTabLayoutStyle" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">#f8a916</item>
+        <item name="tabSelectedTextColor">#333333</item>
+        <item name="tabTextAppearance">@style/AnalystTextAppearance</item>
+        <item name="tabTextColor">#666666</item>
+        <item name="tabMode">fixed</item>
+    </style>
+    <style name="AnalystTextAppearance">
+        <item name="android:textSize">14sp</item>
+    </style>
+</resources>

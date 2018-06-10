@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:MyTitleBar="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <com.example.administrator.technologystackapp.activities.custom.CommonTitleBarLayout
+        android:id="@+id/cb_01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Hello World!"
+        MyTitleBar:left_drawable="@drawable/back"
+        MyTitleBar:left_text="左按钮"
+        MyTitleBar:mid_text="标题1"
+        MyTitleBar:right_drawable="@drawable/next"
+        MyTitleBar:right_text="右按钮"
+        MyTitleBar:title_bg_color="@android:color/holo_blue_bright" />
+
+    <com.example.administrator.technologystackapp.activities.custom.CommonTitleBarLayout
+        android:id="@+id/cb_02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Hello World!"
+        MyTitleBar:left_drawable="@drawable/back"
+        MyTitleBar:left_text="左按钮"
+        MyTitleBar:mid_text="标题2"
+        MyTitleBar:right_text="right2"
+        MyTitleBar:title_bg_color="@android:color/darker_gray" />
+
+    <com.example.administrator.technologystackapp.activities.custom.CommonTitleBarLayout
+        android:id="@+id/cb_03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Hello World!"
+        MyTitleBar:left_text="左按钮"
+        MyTitleBar:mid_text="标题3"
+        MyTitleBar:right_drawable="@drawable/next"
+        MyTitleBar:right_text="右按钮"
+        MyTitleBar:title_bg_color="@color/colorPrimaryDark" />
+
+
+</LinearLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.administrator.technologystackapp.activities.custom.scroll_confict.MyParentView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parent_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.example.administrator.technologystackapp.activities.custom.scroll_confict.MyScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/textview_background2"
+                android:gravity="center"
+                android:text="content1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/textview_background2"
+                android:gravity="center"
+                android:text="content2" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/textview_background2"
+                android:gravity="center"
+                android:text="content3" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/textview_background2"
+                android:gravity="center"
+                android:text="content4" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/textview_background2"
+                android:gravity="center"
+                android:text="content5" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/textview_background2"
+                android:gravity="center"
+                android:text="content6" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/textview_background2"
+                android:gravity="center"
+                android:text="content7" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/textview_background2"
+                android:gravity="center"
+                android:text="content8" />
+
+        </LinearLayout>
+
+    </com.example.administrator.technologystackapp.activities.custom.scroll_confict.MyScrollView>
+
+</com.example.administrator.technologystackapp.activities.custom.scroll_confict.MyParentView>

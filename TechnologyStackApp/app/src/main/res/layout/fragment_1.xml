@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="第一个tab页" />
+
+
+    <!-- 听说这是谷歌提供的一个吊炸天的可滑动刷新layout··简直厉害 -->
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipe_fresh_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.example.administrator.technologystackapp.activities.custom.MyRecyclerView
+            android:id="@+id/rv_data1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></com.example.administrator.technologystackapp.activities.custom.MyRecyclerView>
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+
+</LinearLayout>
